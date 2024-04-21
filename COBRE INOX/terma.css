@@ -1,0 +1,267 @@
+.infottermas2 {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 20px; /* Espacio interno para el contenido */
+    animation: fadeIn ease 1s; /* Animación de entrada */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.infottermas2 h1 {
+    text-align: center; /* Centrar el título */
+}
+
+.infottermas2 p {
+    text-align: justify; /* Justificar el texto */
+    line-height: 1.6; /* Espaciado de línea */
+}
+
+
+
+
+
+.tanques-conta {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    padding: 0 20px; /* Añadir espacio interno a los lados */
+}
+
+.tanques-section {
+    display: flex; /* Mostrar las tarjetas en línea */
+    justify-content: center; /* Centrar horizontalmente las tarjetas */
+    flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan en pantallas pequeñas */
+    margin: 20px 0; /* Añadir margen superior e inferior */
+}
+
+.card {
+    width: calc(25% - 30px); /* Reducir el ancho de las tarjetas */
+    margin: 0 15px 20px; /* Espacio entre las tarjetas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombreado más suave */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px 15px; /* Ajustar el padding para hacer la tarjeta más rectangular */
+    opacity: 0; /* Inicialmente ocultar la tarjeta */
+    animation: fadeIn ease 1s forwards; /* Animación de entrada */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Desplazamiento hacia arriba */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Sin desplazamiento */
+    }
+}
+
+.card img {
+    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+.card-body {
+    padding: 15px; /* Espacio interno de la tarjeta */
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+.card-body h3 {
+    margin-top: 0; /* Eliminar margen superior del título */
+    color: #333; /* Color del título */
+}
+
+.tanques-section h2 {
+    background-color: #f9f9f9; /* Color de fondo para el título */
+    padding: 10px; /* Espacio interno para el título */
+    border-radius: 5px; /* Bordes redondeados para el título */
+    color: #333; /* Color del título */
+    margin-top: 0; /* Eliminar margen superior del título */
+}
+
+/* Media queries para hacer el diseño responsive */
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 30px); /* Ancho de las tarjetas en pantallas pequeñas */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        width: calc(100% - 30px); /* Ancho de las tarjetas en pantallas extra pequeñas */
+        margin-right: 0; /* Eliminar margen derecho en la última tarjeta */
+    }
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #0066ffc8; /* Color celeste */
+}
+
+.solar-panels-contex {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.panel-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.solar-panel {
+    flex: 1 1 calc(30% - 40px);
+    margin: 0 20px 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.solar-panel:hover {
+    transform: translateY(-5px);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; /* Alinea el texto justificado */
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .solar-panel {
+        flex: 1 1 calc(50% - 40px); /* Ajuste para 2 columnas en dispositivos móviles */
+        margin: 0 20px 40px;
+    }
+}
+
+/* Media query para dispositivos pequeños */
+@media only screen and (max-width: 480px) {
+    .solar-panel {
+        flex: 1 1 calc(100% - 40px); /* Ajuste para 1 columna en dispositivos muy pequeños */
+        margin: 0 20px 40px;
+    }
+}
+
+
+
+
+
+
+
+/* Estilos base para el contenedor principal */
+.SOLDADURAS {
+    margin: 20px auto; /* Margen superior e inferior 20px, centrado horizontalmente */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    text-align: center; /* Alinear texto al centro */
+}
+
+/* Estilos base para el título principal */
+.main-title {
+    font-size: 2.5rem; /* Tamaño de fuente */
+    color: #007bff; /* Color del texto (azul) */
+    margin: 20px 0; /* Espacio superior e inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+}
+
+/* Estilos base para las secciones */
+.section {
+    margin-bottom: 30px; /* Espacio entre cada sección */
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan si no caben en una línea */
+}
+
+/* Estilos base para los contenidos */
+.content {
+    flex: 1; /* Ocupar el mismo espacio dentro del contenedor */
+    margin: 10px; /* Margen uniforme entre los contenidos */
+    text-align: justify; /* Alinear texto justificado */
+}
+
+/* Estilos base para las imágenes */
+.image-container {
+    flex: 1; /* Ocupar el mismo espacio dentro del contenedor */
+    margin: 10px; /* Margen uniforme entre las imágenes */
+    text-align: center; /* Alinear imagen al centro */
+}
+
+.image-container figure {
+    position: relative; /* Posición relativa para permitir posicionar la descripción */
+}
+
+.image-container img {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    max-height: 250px; /* Altura máxima de la imagen */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de la imagen */
+}
+
+/* Estilos base para las descripciones de las imágenes */
+figcaption {
+    position: absolute; /* Posición absoluta para superponer la descripción sobre la imagen */
+    bottom: 0; /* Alinear la descripción en la parte inferior */
+    left: 0; /* Alinear la descripción a la izquierda */
+    width: 100%; /* Ancho al 100% del contenedor */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para la descripción */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espacio interno */
+    font-size: 1rem; /* Tamaño de fuente */
+    text-align: center; /* Alinear texto al centro */
+}
+
+/* Estilos base para los títulos de los contenidos */
+.sub-title {
+    font-size: 1.5rem; /* Tamaño de fuente */
+    color: #0575dd9d; /* Color del texto (verde) */
+    margin: 10px 0; /* Espacio superior e inferior */
+}
+
+/* Estilos base para los párrafos de los contenidos */
+.text {
+    font-size: 1rem; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+    color: #6c757d; /* Color del texto (gris) */
+    margin: 10px 0 20px; /* Espacio superior, inferior y entre párrafos */
+}
+
+/* Media queries para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .SOLDADURAS {
+        padding: 0 20px; /* Añadir un poco de espacio horizontal */
+    }
+    .image-container {
+        flex: 0 0 100%; /* Establecer el ancho máximo de la imagen al 100% en pantallas pequeñas */
+    }
+}

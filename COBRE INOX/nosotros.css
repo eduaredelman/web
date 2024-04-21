@@ -1,0 +1,173 @@
+/* Estilos para el contenedor de ubicaciones */
+.ubicacion {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente si es necesario */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
+}
+
+/* Estilos para el título "Nuestras Tiendas" */
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tarjeta de ubicación */
+.location-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out; /* Animación de entrada */
+}
+
+/* Animación de entrada al pasar el mouse */
+.location-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para el mapa */
+.location-map-custom iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilos para la información de ubicación */
+.location-info-custom {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.location-info-custom .location-icon-custom {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.location-info-custom .location-address-custom,
+.location-info-custom .location-phone-custom {
+    font-size: 14px;
+}
+
+/* Estilos para el título de ubicación */
+.location-header-custom {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+.contANGE {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cobre-title, .tecnico-title, h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.text-muted, .testimonios blockquote {
+    color: #666;
+}
+
+.cobre-lista li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.testimonios {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.testimonios blockquote {
+    font-style: italic;
+    color: #777;
+}
+
+.testimonios footer {
+    margin-top: 10px;
+    color: #999;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Estilos para la imagen */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Agrega un margen superior para separar la imagen del texto */
+}
+
+
+.INFOCOBRE {
+    text-align: center;
+}
+
+.INFOCOBRE h1 {
+    color: black; /* Set color to black for the entire heading */
+}
+
+.INFOCOBRE h1 .highlight {
+    color: red; /* Apply red color to the word "COBRE" */
+    text-decoration: underline; /* Underline the word "COBRE" */
+}
+
+
+
+
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Añade un margen inferior para separar las tarjetas */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+
+.card-title {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Establece una altura fija para las tarjetas para que todas tengan la misma altura */
+.card.h-100 {
+    height: 100%;
+}
+
